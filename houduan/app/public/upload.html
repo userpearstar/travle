@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		<script>
+			axios.get("https://getman.cn/mock/x").then(res=>{
+				console.log(res.data);
+			})
+		</script>
+		<script>
+			//js部分
+			async function regist() {
+				event.preventDefault();
+				try {
+					let name = document.getElementById("name").value;
+					let price = document.getElementById("price").value;
+					let file = document.getElementById("fileinput").files[0];
+					
+					let formData = new FormData();
+					formData.append("uploadFile", file, file.name);
+					formData.append("name", name); //上传赋加参数
+					formData.append("price", price);   //上传赋加参数
+					
+					const config = {
+						headers: {
+							"Content-Type": "multipart/form-data;boundary=" + new Date().getTime()
+						}
+					};
+					let res = await axios.post("http://localhost:7001/uploadFileWithParams.do", formData, config);
+					let data = res.data;
+					if(data.state==1) {
+						const showdiv = document.getElementById("showdiv");
+						const img = document.createElement("img");
+						img.src = data.url
+						img.width = 100;
+						showdiv.appendChild(img)
+					}else {
+						throw new Error("异常");
+					}
+				}catch(e) {
+					console.log(e)
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<form onSubmit="regist()">
+			<input type="text" id="name" placeholder="名字" /><br />
+			<input type="text" id="price" placeholder="价格"  /><br />
+			<input type="file" id="fileinput"/><br />
+			<input type="submit" value="确认" />
+		</form>
+		<div id="showdiv">
+		</div>
+	</body>
+</html>

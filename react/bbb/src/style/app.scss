@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.a-header {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgba(43, 36, 36, 0);
+
+    font-family: YouYuan;
+    z-index: 2;
+    position: fixed;
+    font-size: 20px;
+
+}
+
+/* Rectangle 3 */
+
+
+.a-head {
+    width: 500px;
+    display: flex;
+    color: rgb(117, 97, 97);
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
+
+
+.a-head>div>a {
+    margin-left: 0px;
+    color: white;
+    text-decoration: none;
+}
+
+.m-all {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-image: url('../imgs/back1.jpg');
+    background-size: cover;
+
+    span {
+
+        position: absolute;
+        top: 59%;
+        left: 50%;
+
+        color: rgb(255, 255, 255);
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+
+
+    }
+
+    h1 {
+        font-size: 50px;
+        text-align: center;
+        position: absolute;
+        width: 759px;
+        height: 204px;
+        top: 466px;
+        left: 485px;
+        color: rgb(255, 255, 255);
+        font-family: Open Sans;
+        font-size: 75px;
+        font-weight: 800;
+        line-height: 102px;
+        letter-spacing: 0%;
+        text-align: center;
+
+
+    }
+
+
+    .wel {
+        position: absolute;
+        width: 759px;
+        height: 204px;
+        top: 40%;
+        left: 50%;
+        color: rgb(255, 255, 255);
+        font-family: Open Sans;
+        font-size: 75px;
+        font-weight: 800;
+        line-height: 102px;
+        letter-spacing: 0%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+    }
+
+    .m-food {
+        top: random($limit: 100);
+        left: random($limit: 500);
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        background-color: pink;
+        text-align: center;
+        line-height: 200px;
+
+    }
+
+    .m-scenery {
+        top: random($limit: 100);
+        left: random($limit: 500);
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        position: absolute;
+        top: 10;
+        background-color: pink;
+        text-align: center;
+        line-height: 200px;
+    }
+
+    .m-house {
+        top: random($limit: 100);
+        left: random($limit: 500);
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        position: absolute;
+        top: 20;
+        background-color: pink;
+        text-align: center;
+        line-height: 200px;
+    }
+
+}

@@ -1,0 +1,993 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.h-box {
+    /* Web */
+    position: relative;
+    width: 1165px;
+    height: 2042px;
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+    /* shadow */
+    box-shadow: 0px 4px 65px rgba(26, 41, 47, 0.14);
+    ;
+    border-radius: 40.47px;
+}
+
+.h-screen1 {
+    /* 1 screen */
+    position: absolute;
+    width: 1165.18px;
+    height: 727.61px;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 40.47px;
+    border-top-right-radius: 40.47px;
+    float: right;
+    background: url(../imgs/yimg.png);
+}
+
+.h-header {
+    /* header */
+    position: relative;
+    width: 391.73px;
+    height: 36.42px;
+    margin-top: 10px;
+    float: right;
+
+    /* 自动布局 */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+}
+
+.h-meaun {
+    /* menu */
+    position: static;
+    width: 275.18px;
+    height: 36.42px;
+
+
+
+    /* 自动布局 */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 9px 283.374043px;
+}
+
+.h-link {
+    /* link */
+    position: static;
+    width: 55.04px;
+    height: 36.42px;
+
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(42.08625793457031px);
+    border-radius: 48.56px;
+
+
+    /* 自动布局 */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 16px 11px 16px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 6.474808692932129px;
+}
+
+
+
+.h-linktext {
+    /* App */
+    position: static;
+    width: 22.66px;
+    height: 13.76px;
+
+
+    color: rgb(58, 79, 90);
+    font-family: Steppe;
+    font-size: 11.33px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+
+
+
+    /* 自动布局 */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 16px 11px 16px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8.093510627746582px;
+}
+
+.h-link:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.h-socil {
+    /* socials */
+    position: absolute;
+    width: 84.17px;
+    height: 19.42px;
+    top: 19px;
+    left: 255px;
+
+
+    /* 自动布局 */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 32.37404251098633px;
+    background: url(../imgs/socials.png);
+}
+
+.h-Loge {
+    /* logo */
+    position: absolute;
+    width: 170.77px;
+    height: 107.52px;
+    top: 80.94px;
+    left: 80.94px;
+
+}
+
+.h-line {
+    /* Line */
+    position: absolute;
+    width: 77.04px;
+    height: 0;
+    top: 89.92px;
+    left: 83.15px;
+    border: 0.8093510866165161px solid rgb(255, 255, 255);
+    transform: rotate(321deg);
+}
+
+.h-text {
+    /* text */
+    position: relative;
+    width: 170.77px;
+    height: 107.52px;
+
+
+
+    /* 自动布局 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.h-hety {
+    /* hytte */
+    position: static;
+    width: 140.02px;
+    height: 73.94px;
+
+
+    color: rgb(255, 255, 255);
+    font-family: Steppe;
+    font-size: 53.42px;
+    font-weight: 400;
+    line-height: 79px;
+    letter-spacing: 0%;
+    text-align: center;
+
+
+
+    /* 自动布局 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 4.856106758117676px 0px;
+
+}
+
+.h-hedy {
+    /* [ˈhyd̥ə] */
+    position: static;
+    width: 40.47px;
+    height: 17px;
+
+
+    color: rgb(255, 255, 255);
+    font-family: Baskerville;
+    font-size: 14.57px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+
+
+
+    /* 自动布局 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 4.856106758117676px 0px;
+}
+
+.h-3 {
+    /* 3 */
+    position: static;
+    width: 170.77px;
+    height: 16.88px;
+
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 4.856106758117676px 0px;
+}
+
+.h-nu {
+    /* (Noun) */
+    position: absolute;
+    width: 36.42px;
+    height: 16.19px;
+    top: 109.65px;
+    left: 0;
+
+
+    color: rgb(255, 255, 255);
+    font-family: Baskerville;
+    font-size: 14.57px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.h-cott {
+    /* cottage, summer house */
+    position: absolute;
+
+    width: 140.31px;
+    height: 13.76px;
+    top: 113.77px;
+    left: 53.47px;
+
+
+    color: rgb(255, 255, 255);
+    font-family: Steppe;
+    font-size: 11.33px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.h-screen2 {
+    /* 2 screen */
+    /* 2 screen */
+    position: absolute;
+    width: 1002.79px;
+    height: 635.34px;
+    top: 759.98px;
+    left: 80.94px;
+
+
+}
+
+
+
+.h-title {
+    /* title */
+    position: absolute;
+    width: 205.58px;
+    height: 104.41px;
+    top: 32.98px;
+    left: 406.95px;
+}
+
+.h-Options {
+    /* Options */
+    position: absolute;
+    width: 205.58px;
+    height: 97.93px;
+
+    color: rgb(58, 79, 90);
+    font-family: Steppe;
+    font-size: 53.42px;
+    font-weight: 400;
+    line-height: 1.8350000381469727;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.h-217 {
+    /* 217 perfect options */
+    position: absolute;
+    width: 114.41px;
+    height: 13.76px;
+    top: 99.98px;
+    left: 50.95px;
+
+    color: rgb(58, 79, 90);
+    font-family: Steppe;
+    font-size: 11.33px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.h-logo {
+    /* logo */
+    position: absolute;
+    width: 74.46px;
+    height: 37.05px;
+    top: 46px;
+    left: 0.94px;
+}
+
+.h-lino {
+    /* Line */
+    position: absolute;
+    width: 33.59px;
+    height: 0;
+    top: 25.6px;
+    left: 41.81px;
+    border: 0.8093510866165161px solid rgb(171, 191, 201);
+    transform: rotate(313deg);
+}
+
+.h-textt {
+    /* text */
+    position: relative;
+    width: 60.34px;
+    height: 27.53px;
+
+    /* 自动布局 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.h-hytte {
+    /* text */
+    position: relative;
+    width: 60.34px;
+    height: 27.53px;
+
+
+
+    /* 自动布局 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.h-hytte {
+    /* hytte */
+    position: static;
+    width: 60.34px;
+    height: 27.53px;
+
+
+    color: rgb(171, 191, 201);
+    font-family: Steppe;
+    font-size: 22.97px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: center;
+
+
+
+    /* 自动布局 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 2.117354393005371px 0px;
+}
+
+.h-photos {
+    /* photos */
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+
+    width: 1002.79px;
+    height: 389.3px;
+    top: 180px;
+    left: 3.94px;
+
+}
+
+.h-Rg1 {
+    /* Rectangle 1 */
+
+    width: 190.2px;
+    height: 389.3px;
+    float: left;
+    transition: all 0.5s linear;
+
+
+
+    background: url(../imgs/Rectangle\ 1.png);
+}
+
+.h-Rg1:hover {
+    box-shadow: inset 0 0 10px #fff;
+    transform: scale(1.01);
+}
+
+.h-Rg2:hover {
+    box-shadow: inset 0 0 10px #fff;
+    transform: scale(1.01);
+}
+
+.h-Rg3:hover {
+    box-shadow: inset 0 0 10px #fff;
+    transform: scale(1.01);
+}
+
+.h-Rg4:hover {
+    box-shadow: inset 0 0 10px #fff;
+    transform: scale(1.01);
+}
+
+.h-Rg5:hover {
+    box-shadow: inset 0 0 10px #fff;
+    transform: scale(1.01);
+}
+
+
+.h-Rg2 {
+    /* Rectangle 2 */
+
+    width: 190.2px;
+    height: 389.3px;
+    float: left;
+    transition: all 0.5s linear;
+
+    background: url(../imgs/Rectangle\ 2.png);
+}
+
+.h-Rg3 {
+    /* Rectangle 2 */
+
+    width: 190.2px;
+    height: 389.3px;
+    float: left;
+    transition: all 0.5s linear;
+
+    background: url(../imgs/Rectangle\ 3.png);
+}
+
+.h-Rg4 {
+    /* Rectangle 2 */
+
+    width: 190.2px;
+    height: 389.3px;
+    float: left;
+    transition: all 0.5s linear;
+
+
+    background: url(../imgs/Rectangle\ 4.png);
+}
+
+.h-Rg5 {
+
+    width: 190.2px;
+    height: 389.3px;
+    float: left;
+    transition: all 0.5s linear;
+    background: url(../imgs/Rectangle\ 5.png);
+}
+
+.h-date {
+    /* data */
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 100.22px;
+    width: 1002.79px;
+    top: 580px;
+    left: 3px;
+
+}
+
+.h-da1 {
+    /* data */
+    position: relative;
+    float: left;
+    width: 190.2px;
+    height: 88.22px;
+}
+
+.h-da2 {
+    position: relative;
+    float: left;
+    width: 190.2px;
+    height: 88.22px;
+}
+
+.h-da3 {
+    position: relative;
+    float: left;
+    width: 190.2px;
+    height: 88.22px;
+}
+
+.h-da4 {
+    position: relative;
+    float: left;
+    width: 190.2px;
+    height: 88.22px;
+}
+
+.h-da5 {
+    position: relative;
+    float: left;
+    width: 190.2px;
+    height: 88.22px;
+}
+
+.h-table {
+    /* tabs */
+    position: absolute;
+    width: 139.27px;
+    height: 14.05px;
+    top: -485px;
+    left: -9px;
+    /* 自动布局 */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.h-tab1 {
+    /* 1 */
+    position: absolute;
+    width: 200.97px;
+    height: 69.62px;
+    top: -570px;
+    left: 0;
+
+    /* 自动布局 */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.h-price {
+    /* price */
+    position: static;
+    width: 67.95px;
+    height: 28.57px;
+    box-sizing: border-box;
+
+    border: 0.8093510866165161px solid rgb(51, 182, 182);
+    border-radius: 4.05px;
+
+    /* 自动布局 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 8px 6px 6px 6px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px -16.62233px;
+}
+
+.h-ptitle {
+    /* title */
+    position: static;
+    width: 107.64px;
+    height: 69.62px;
+
+    /* 自动布局 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 15.377670288085938px;
+}
+
+.h-dress {
+    /* NEST Bunnefjorden - Mirrored Glass Cabin */
+    position: static;
+    width: 107.64px;
+    height: 56px;
+    color: rgb(0, 0, 0);
+    font-family: Steppe;
+    font-size: 11.33px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: -1.381298px -15px;
+}
+
+.h-pprice {
+    /* price */
+    position: static;
+    width: 55px;
+    height: 14px;
+
+
+
+    /* 自动布局 */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8.093510627746582px 0px;
+}
+
+.h-ppp {
+    /* /night */
+    position: static;
+    width: 29px;
+    height: 12px;
+
+    /* body/small */
+    color: rgb(58, 79, 90);
+    font-family: Steppe;
+    font-size: 9.71px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: left;
+
+    /* 自动布局 */
+
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.h-money {
+    /* $424 */
+    position: static;
+    width: 26px;
+    height: 14px;
+
+    /* body/normal */
+    color: rgb(0, 0, 0);
+    font-family: Steppe;
+    font-size: 11.33px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+
+    /* 自动布局 */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.h-tedian {
+    /* Frogn, Viken, Norway */
+    position: static;
+    width: 107.64px;
+    height: 12px;
+    /* body/small */
+    color: rgb(58, 79, 90);
+    font-family: Steppe;
+    font-size: 9.71px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* 自动布局 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: -8.618702px -16px;
+}
+
+.h-xinxi {
+    /* 1 */
+    position: static;
+    width: 61.52px;
+    height: 14.05px;
+    background: rgb(51, 182, 182);
+    border-radius: 36.42px;
+
+    /* 自动布局 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 8px 2px 8px;
+    font-size: 14px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 3.2374043464660645px;
+}
+
+.h-phone {
+    /* 2 */
+    position: static;
+    width: 94.52px;
+    height: 14.05px;
+    background: rgb(51, 182, 182);
+    border-radius: 36.42px;
+
+    /* 自动布局 */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 8px 2px 8px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 3.2374043464660645px;
+    font-size: 13px;
+}
+
+.h-screen3 {
+    /* 3 screen */
+    position: absolute;
+    width: 1003.6px;
+    height: 428.96px;
+    top: 1451.98px;
+    left: 80.94px;
+
+}
+
+.h-Booking {
+    /* Booking */
+    position: absolute;
+    width: 1003.6px;
+    height: 292.18px;
+
+    left: 80.94px;
+}
+
+.h-headering {
+    /* header */
+    position: absolute;
+    width: 648.29px;
+    height: 104.41px;
+    top: 8.98px;
+    left: 4.94px;
+
+}
+
+.h-datee {
+    /* data */
+    position: absolute;
+    width: 1040.6px;
+    height: 106.94px;
+    top: 317px;
+    z-index: 2;
+    left: -94.06px;
+    background: url(../imgs/data.png);
+}
+
+.h-imgg {
+    /* img */
+    position: absolute;
+    width: 1003.6px;
+    height: 292.18px;
+    top: 121.76px;
+    left: -80.06px;
+    background: url(../imgs/yimg2.png);
+    border-radius: 40.47px;
+
+}
+
+.h-titlee {
+    /* title */
+    position: absolute;
+    width: 292.18px;
+    height: 104.41px;
+    left: 355px;
+}
+
+.h-booking {
+    /* Book Hytte */
+
+    width: 292.18px;
+    height: 97.93px;
+
+    color: rgb(58, 79, 90);
+    font-family: Steppe;
+    font-size: 53.42px;
+    font-weight: 400;
+    line-height: 1.8350000381469727;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.h-booking2 {
+    /* Book a Hytte in Norway */
+    position: absolute;
+    width: 284.31px;
+    height: 13.76px;
+    top: 86.62px;
+    color: rgb(58, 79, 90);
+    font-family: Steppe;
+    font-size: 11.33px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.h-screen4 {
+    /* 4 screen header */
+    position: absolute;
+    width: 267.9px;
+    height: 104.41px;
+    top: 1919.59px;
+    left: 438.19px;
+
+}
+
+.h-title4 {
+    /* title */
+
+    position: absolute;
+    width: 267.9px;
+    height: 104.41px;
+
+    left: 8.19px;
+
+
+}
+
+.h-kk {
+    /* Hytte App */
+    position: absolute;
+    width: 267.9px;
+    height: 97.93px;
+    top: 1.59px;
+    left: 9.19px;
+
+
+    color: rgb(58, 79, 90);
+    font-family: Steppe;
+    font-size: 53.42px;
+    font-weight: 400;
+    line-height: 1.8350000381469727;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.h-kke {
+    /* iOS & Android */
+    position: absolute;
+    width: 267.89px;
+    height: 13.76px;
+    top: 106.23px;
+    left: 3.88px;
+
+    color: rgb(58, 79, 90);
+    font-family: Steppe;
+    font-size: 11.33px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+
+
+}

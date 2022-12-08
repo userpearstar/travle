@@ -1,0 +1,365 @@
+.m-box {
+    /* Travel Dashboard (Normal) */
+    position: relative;
+    width: 1194px;
+    height: 834px;
+    background: #f4f5f7;
+    border-radius: 35px;
+    margin: 0 auto;
+}
+
+.m-nav {
+    /* Top bar */
+    position: absolute;
+    width: 934px;
+    height: 91px;
+    top: 32px;
+    left: 220px;
+    background: url(../imgs/Topbar.png);
+
+
+}
+
+.m-group5 {
+    /* Group 5 */
+    position: absolute;
+    width: 240px;
+    height: 214px;
+    top: 175px;
+    left: 228px;
+
+
+}
+
+.m-data {
+    /* Calendar */
+    position: absolute;
+    width: 357px;
+    height: 269px;
+    top: 128px;
+    left: 797px;
+
+
+
+}
+
+.m-trips {
+    /* Upcoming Trips */
+    /* Rectangle 11 */
+    position: absolute;
+    width: 554px;
+    height: 500px;
+    top: 167px;
+    left: 219px;
+    background: rgb(255, 255, 255);
+    /* Shadow */
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+    ;
+    border-radius: 12px;
+}
+
+.m-Gropus {
+    /* Navigation bar */
+    position: absolute;
+    width: 160px;
+    height: 789px;
+    top: 32px;
+    left: 7px;
+
+    background: url(../imgs/Navigationbar.png);
+    border: 1.5px solid rgb(240, 240, 240);
+}
+
+.m-re12 {
+    /* Rectangle 12 */
+    position: absolute;
+    width: 240px;
+    height: 214px;
+    top: 175px;
+    left: 228px;
+
+
+    background: rgb(217, 217, 217);
+    border-radius: 8px;
+}
+
+.m-re13 {
+    /* Rectangle 15 */
+    position: absolute;
+    width: 240px;
+    height: 40px;
+    top: 349px;
+    left: 468px;
+    background: rgb(255, 255, 255);
+    backdrop-filter: blur(10px);
+    border-radius: 12px 12px 8px 8px;
+    transform: rotate(-180.00deg);
+}
+
+.m-Group5 {
+    /* Group 5 */
+    position: absolute;
+    width: 240px;
+    height: 214px;
+    top: 9px;
+    left: 9px;
+
+}
+
+.m-Gp {
+    /* Rectangle 15 */
+    position: absolute;
+    width: 240px;
+    height: 40px;
+    top: 449px;
+    left: -2px;
+    z-index: 2;
+    background-color: #fff;
+    backdrop-filter: blur(10px);
+    border-radius: 12px 12px 8px 8px;
+
+}
+
+.m-img {
+    /* image 2 */
+
+    position: absolute;
+    width: 240px;
+    height: 214px;
+    top: -1px;
+    left: -1px;
+
+
+
+    border-radius: 8px;
+
+}
+
+.m-img img {
+    position: absolute;
+    width: 240px;
+
+    top: -1px;
+    left: -1px;
+    border-radius: 8px;
+}
+
+.m-tite {
+    /* Cherry blossom Seoul tour */
+    position: absolute;
+    width: 257px;
+    height: 49px;
+    top: 38px;
+    left: 281px;
+
+    color: rgb(0, 0, 0);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-size: 17px;
+}
+
+.m-rimi {
+    /* Group 289208 */
+    position: absolute;
+    width: 257px;
+    height: 28px;
+    top: 90px;
+    left: 278px;
+
+    background: url(../imgs/Group\ .png);
+}
+
+.m-xiangqing {
+    /* It’s springtime in Korea, which means some very welcome warmer weather. It also means cherry blossom season! ... */
+    position: absolute;
+    width: 267px;
+    height: 44px;
+    top: 150px;
+    left: 283px;
+
+    color: rgb(108, 108, 108);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.m-yudi {
+    /* Frame 9 */
+    position: relative;
+    width: 208px;
+    height: 36px;
+
+    /* Primary */
+    background: rgb(0, 204, 203);
+    border-radius: 12px;
+
+    /* 自动布局 */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px 10px 16px;
+    top: 290px;
+    left: 280px;
+}
+
+.m-yudi button {
+    border: none;
+    background-color: rgb(0, 204, 203);
+}
+
+.m-yd {
+    /* View detail */
+    position: static;
+    width: 66px;
+    height: 14px;
+
+
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+
+
+
+    /* 自动布局 */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px 10px 16px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.m-Gourp2 {
+    /* Group 289213 */
+    position: absolute;
+    width: 52px;
+    height: 26px;
+    top: 174px;
+    left: -94px;
+
+    z-index: 5;
+}
+
+.m-vustart {
+    /* vuesax/bulk/star */
+    position: relative;
+    width: 24px;
+    height: 24px;
+
+}
+
+.m-vstart {
+    /* vuesax/bulk/star */
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    left: 0;
+}
+
+.m-start {
+    /* star */
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    left: 0;
+}
+
+.m-Gourpp {
+    /* Group */
+    position: absolute;
+    width: 15.98px;
+    height: 15.89px;
+    top: 4px;
+    left: 4px;
+
+
+}
+
+.m-vu {
+    /* Vector */
+    position: absolute;
+    width: 15.98px;
+    height: 15.89px;
+    top: 4px;
+    left: 4px;
+
+
+    background: rgb(255, 216, 15);
+}
+
+.m-ttt {
+    /* 4.9 */
+    position: absolute;
+    width: 19px;
+    height: 14px;
+    top: 7px;
+    left: 32px;
+
+
+    color: rgb(0, 0, 0);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+
+
+}
+
+.m-tttt {
+    /* South Korea */
+    position: absolute;
+    width: 85px;
+    height: 16px;
+    top: 12px;
+    left: 58px;
+
+    color: rgb(0, 0, 0);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.m-vv {
+    /* vuesax/bold/location */
+    position: relative;
+    width: 24px;
+    height: 24px;
+
+
+
+}
+
+.m-vvv {
+    /* Vector */
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 9px;
+    left: 2px;
+    background: url(../imgs/_location\ .png);
+}

@@ -1,0 +1,482 @@
+.lm-box {
+    /* Travel Dashboard (Normal) */
+    position: relative;
+    width: 1194px;
+    height: 760px;
+    background: #f4f5f7;
+    border-radius: 35px;
+    margin: 0 auto;
+}
+
+.lm-nav {
+    /* Top bar */
+    position: absolute;
+    width: 934px;
+    height: 91px;
+    top: 32px;
+    left: 220px;
+    background: url(../img/Topbar.png);
+
+
+}
+
+.lm-group5 {
+    /* Group 5 */
+    position: absolute;
+    width: 240px;
+    height: 214px;
+    top: 175px;
+    left: 228px;
+
+
+}
+
+.lm-data {
+    /* Calendar */
+    position: absolute;
+    width: 357px;
+    height: 269px;
+    top: 128px;
+    left: 797px;
+    background: url(../img/Calendar.png);
+
+
+}
+
+.lm-trips {
+    /* Upcoming Trips */
+    /* Rectangle 11 */
+    position: absolute;
+    width: 554px;
+    height: 230px;
+    top: 167px;
+    left: 219px;
+    background: rgb(255, 255, 255);
+    /* Shadow */
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+    ;
+    border-radius: 12px;
+}
+
+.lm-Gropus {
+    /* Navigation bar */
+    position: absolute;
+    width: 160px;
+    height: 607px;
+    top: 32px;
+    left: 7px;
+
+    background: url(../img/Navigationbar1.png);
+    border: 1.5px solid rgb(240, 240, 240);
+}
+
+.lm-re12 {
+    /* Rectangle 12 */
+    position: absolute;
+    width: 240px;
+    height: 214px;
+    top: 175px;
+    left: 228px;
+
+
+    background: rgb(217, 217, 217);
+    border-radius: 8px;
+}
+
+.lm-re13 {
+    /* Rectangle 15 */
+    position: absolute;
+    width: 240px;
+    height: 40px;
+    top: 349px;
+    left: 468px;
+    background: rgb(255, 255, 255);
+    backdrop-filter: blur(10px);
+    border-radius: 12px 12px 8px 8px;
+    transform: rotate(-180.00deg);
+}
+
+.lm-Group5 {
+    /* Group 5 */
+    position: absolute;
+    width: 240px;
+    height: 214px;
+    top: 9px;
+    left: 9px;
+
+}
+
+.lm-Gp {
+    /* Rectangle 15 */
+    position: absolute;
+    width: 240px;
+    height: 40px;
+
+    top: 173px;
+    left: -2px;
+
+    z-index: 2;
+    background-color: #fff;
+    backdrop-filter: blur(10px);
+    border-radius: 12px 12px 8px 8px;
+
+}
+
+.lm-img {
+    /* image 2 */
+
+    position: absolute;
+    width: 240px;
+    height: 214px;
+    top: -1px;
+    left: -1px;
+
+
+
+    border-radius: 8px;
+
+}
+
+.lm-img img {
+    position: absolute;
+    width: 240px;
+    height: 214px;
+    top: -1px;
+    left: -1px;
+
+
+
+    border-radius: 8px;
+}
+
+.lm-tite {
+    /* Cherry blossom Seoul tour */
+    position: absolute;
+    width: 234px;
+    height: 16px;
+    top: 12px;
+    left: 310px;
+    color: rgb(0, 0, 0);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.lm-rimi {
+    /* Group 289208 */
+    position: absolute;
+    width: 257px;
+    height: 28px;
+    top: 46px;
+    left: 278px;
+    background: url(../img/Group\ .png);
+}
+
+.lm-xiangqing {
+    /* It’s springtime in Korea, which means some very welcome warmer weather. It also means cherry blossom season! ... */
+    position: absolute;
+    width: 242px;
+    height: 44px;
+    top: 79px;
+    left: 283px;
+
+    color: rgb(108, 108, 108);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.lm-yudi {
+    /* Frame 9 */
+    position: relative;
+    width: 208px;
+    height: 36px;
+
+    /* Primary */
+   background-color: #f4f5f7;
+    border-radius: 12px;
+
+    /* 自动布局 */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px 10px 16px;
+    top: 184px;
+    left: 298px;
+}
+.lm-yudi button{
+    border: 0;
+    background-color: #f4f5f7;
+}
+
+
+.lm-yd {
+    /* View detail */
+    position: static;
+    width: 82px;
+    height: 14px;
+
+
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+
+
+
+    /* 自动布局 */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px 10px 16px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.lm-Gourp2 {
+    /* Group 289213 */
+    position: absolute;
+    width: 52px;
+    height: 26px;
+    top: 2px;
+    left: -111px;
+
+    z-index: 5;
+}
+
+.lm-vustart {
+    /* vuesax/bulk/star */
+    position: relative;
+    width: 24px;
+    height: 24px;
+
+}
+
+.lm-vstart {
+    /* vuesax/bulk/star */
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    left: 0;
+}
+
+.lm-start {
+    /* star */
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    left: 0;
+}
+
+.lm-Gourpp {
+    /* Group */
+    position: absolute;
+    width: 15.98px;
+    height: 15.89px;
+    top: 4px;
+    left: 4px;
+
+
+}
+
+.lm-vu {
+    /* Vector */
+    position: absolute;
+    width: 15.98px;
+    height: 15.89px;
+    top: -1px;
+    left: -4px;
+}
+
+.lm-ttt {
+    /* 4.9 */
+    position: absolute;
+    width: 19px;
+    height: 14px;
+    top: 7px;
+    left: 32px;
+
+
+    color: rgb(0, 0, 0);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+
+
+}
+
+.lm-tttt {
+    /* South Korea */
+    position: absolute;
+    width: 133px;
+    height: 16px;
+    top: 10px;
+    left: 39px;
+    color: rgb(0, 0, 0);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.lm-vv {
+    /* vuesax/bold/location */
+    position: relative;
+    width: 24px;
+    height: 24px;
+
+
+
+}
+
+.lm-vvv {
+    /* Vector */
+    position: absolute;
+    width: 31px;
+    height: 24px;
+    top: 9px;
+    left: 2px;
+    background: url(../img/_location\ .png);
+}
+
+.lm-comment {
+    /* Done Trips */
+    position: relative;
+    width: 546px;
+    height: 345px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 5px 20px rgb(0 0 0 / 5%);
+    border-radius: 12px;
+    top: 409px;
+
+    left: 225px;
+
+
+}
+
+.lml-comment {
+    position: relative;
+    width: 367px;
+    height: 283px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 5px 20px rgb(0 0 0 / 5%);
+    border-radius: 12px;
+    top: 60px;
+    left: 806px;
+}
+
+
+.lm-comment1 {
+    /* Group 289222 */
+    position: relative;
+    width: 333px;
+    height: 321px;
+    top: 15px;
+    left: 98px;
+    line-height: 60px;
+
+
+}
+
+.lm-comment2 {
+    /* Group 289222 */
+    width: 333px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 109px;
+    line-height: 60px;
+    border-radius: 12px;
+    padding-left: 25px;
+    background-color: #f4f5f7;
+
+}
+
+.lm-comment3 {
+    /* Ellipse 15 */
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 8px;
+    left: 25px;
+}
+
+.lm-comment3 img {
+    /* Ellipse 15 */
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 8px;
+    left: 25px;
+}
+
+.lmcommentbox {
+
+    width: 546px;
+    height: 60px;
+    position: relative;
+    margin-bottom: 18px;
+    top: 27px;
+}
+
+.lmcommenttext {
+    position: absolute;
+    width: 546px;
+    height: 242px;
+    top: 28px;
+    left: 30px;
+}
+.lmcommenttext textarea{
+    border:none;
+    outline: none;
+}
+
+.lml {
+    /* Frame 12 */
+    position: relative;
+    width: 333px;
+    height: 48px;
+    top: 95px;
+    left: -12px;
+
+    background: rgb(255, 255, 255);
+    /* Shadow */
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+    ;
+    border-radius: 12px;
+
+
+    /* 自动布局 */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px 10px 16px;
+}
+.lml button{
+    color: rgb(0, 204, 203);
+    border: none;
+}

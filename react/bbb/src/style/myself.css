@@ -1,0 +1,71 @@
+@charset "UTF-8";
+.y-mall {
+  width: 100%;
+  padding-top: 60px;
+  background: url(../imgs/蟹蝥红.png);
+  background-size: cover;
+}
+
+.y-my {
+  width: 600px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.y-introduct {
+  width: 100%;
+  height: 106px;
+  background-size: cover;
+  background-position: 0 0;
+  position: relative;
+  border-radius: 20px;
+}
+
+.y-introduct .y-sintroduct {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 29px;
+  left: -43px;
+}
+
+.y-introduct .y-sintroduct img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -35px;
+  left: 35px;
+}
+
+.y-introduct .y-sintroduct p {
+  position: absolute;
+  top: 30px;
+  left: 140px;
+  font-size: 25px;
+}
+
+.y-ffoods {
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+
+.y-ffoods .y-img img {
+  width: 160px;
+  height: 160px;
+  border-radius: 30px;
+}
+
+.y-fooddintroduction {
+  margin-left: 60px;
+  margin-top: 68px;
+}
+
+.y-fooddintroduction .fist {
+  font-size: 25px;
+}
+
+.hhh {
+  background-color: #fff;
+}
